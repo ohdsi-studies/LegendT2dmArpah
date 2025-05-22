@@ -391,6 +391,12 @@
       "Source": "Repository",
       "Repository": "CRAN"
     },
+    "bookdown": {
+      "Package": "bookdown",
+      "Version": "0.43",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
     "boot": {
       "Package": "boot",
       "Version": "1.3-31",
@@ -1226,8 +1232,9 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.47",
-      "Source": "Repository"
+      "Version": "0.52",
+      "Source": "Repository",
+      "Repository": "CRAN"
     },
     "xml2": {
       "Package": "xml2",
