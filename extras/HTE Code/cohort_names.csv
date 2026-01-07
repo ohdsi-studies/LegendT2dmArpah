@@ -1,0 +1,40 @@
+cohort_definition_id,cohort_name
+1001,T2DM
+1002,alpha-glucosidase inhibitors with metformin
+1003,DPP4s with metformin
+1004,GIP-GLP-1 RA dual agonists with metformin
+1005,GLP-1 RAs with metformin
+1006,meglitinide with metformin
+1007,SGLT2is with metformin
+1008,Sulfonylureas with metformin
+1009,thiazolidinediones with metformin
+1010,thiazolidinediones without metformin
+1011,Sulfonylureas without metformin
+1012,SGLT2is without metformin
+1013,meglitinides without metformin
+1014,GLP-1 RAs without metformin
+1015,GIP-GLP-1 RA dual agonists without metformin
+1016,DPP4s without metformin
+1017,bigaunides
+1018,alpha-glucosidase inhibitors without metformin
+1019,diabetes severity
+1020,metabolic dysfunction-associated steatotic liver disease
+1021,renal disease not on dialysis
+1022,ANY renal disease (for negation)
+1023,renal disease on dialysis
+1024,obesity
+1025,diabetic ketoacidosis
+1026,diabetic retinopathy
+1027,hyperlipidemia
+1028,essential hypertension
+1029,acute pancreatitis
+1030,hepatic failure
+1031,hypoglycemia
+1032,diabetic ketoacidosis
+1033,abnormal weight gain
+1034,acute renal failure
+1035,vomiting
+1036,diarrhea
+1037,stroke
+1038,hospitalization with heart failure events
+1039,acute myocardial infarction

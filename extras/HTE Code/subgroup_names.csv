@@ -1,0 +1,28 @@
+subset_id,subgroup_name
+1,All T2DM
+11,All Population
+31,Diabetes Severe
+51,Negation: Diabetes Severe
+32,MASLD
+52,Negation: MASLD 
+33,Reneal Disease not on dialysis
+53,Negation: Renal Disease Not on Dialysis
+34,Any Renal Disease
+54,Negation: Any Renal Disease
+35,Reneal Disease on Dialysis 
+55,Negation: Renal Disease on Dialysis
+36,Obesity
+56,Negation: Obesity
+37,Diabetic Ketoacidosis 
+57,Negation: Diabetic Ketoacidosis
+38,Diabetic Retinopathy
+58,Negation: Diabetic Retinopathy
+39,Hyperlipedemia 
+59,Negation: Hyperlipedemia
+40,Essential Hypertension
+60,Negation: Essential Hypertension
+71,Age <= 20
+72,Age 21-60
+73,Age 61-80
+91,Male
+92,Female

@@ -1,0 +1,40 @@
+atlas_id,cohort_id,cohort_name,logic_description,generate_stats
+11708,11708,T2DM,NA,TRUE
+11713,11713,alpha-glucosidase inhibitors with metformin,NA,TRUE
+11730,11730,DPP4s with metformin,NA,TRUE
+11729,11729,GIP-GLP-1 RA dual agonists with metformin,NA,TRUE
+11728,11728,GLP-1 RAs with metformin,NA,TRUE
+11727,11727,meglitinide with metformin,NA,TRUE
+11726,11726,SGLT2is with metformin,NA,TRUE
+11725,11725,Sulfonylureas with metformin,NA,TRUE
+11724,11724,thiazolidinediones with metformin,NA,TRUE
+11723,11723,thiazolidinediones without metformin,NA,TRUE
+11722,11722,Sulfonylureas without metformin,NA,TRUE
+11721,11721,SGLT2is without metformin,NA,TRUE
+11720,11720,meglitinides without metformin,NA,TRUE
+11719,11719,GLP-1 RAs without metformin,NA,TRUE
+11718,11718,GIP-GLP-1 RA dual agonists without metformin,NA,TRUE
+11717,11717,DPP4s without metformin,NA,TRUE
+11716,11716,bigaunides,NA,TRUE
+11711,11711,alpha-glucosidase inhibitors without metformin,NA,TRUE
+11746,11746,diabetes severity,NA,TRUE
+11710,11710,metabolic dysfunction-associated steatotic liver disease ,NA,TRUE
+11732,11732,renal disease not on dialysis,NA,TRUE
+11745,11745,ANY renal disease (for negation),NA,TRUE
+11733,11733,renal disease on dialysis,NA,TRUE
+11739,11739,obesity,NA,TRUE
+11741,11741,diabetic ketoacidosis,NA,TRUE
+11743,11743,diabetic retinopathy,NA,TRUE
+11737,11737,hyperlipidemia,NA,TRUE
+11735,11735,essential hypertension,NA,TRUE
+11753,11753,acute pancreatitis,NA,TRUE
+11706,11706,hepatic failure,NA,TRUE
+11756,11756,hypoglycemia,NA,TRUE
+11758,11758,diabetic ketoacidosis,NA,TRUE
+11752,11752,abnormal weight gain,NA,TRUE
+11749,11749,acute renal failure,NA,TRUE
+11757,11757,vomiting,NA,TRUE
+11755,11755,diarrhea,NA,TRUE
+11751,11751,stroke,NA,TRUE
+11750,11750,hospitalization with heart failure events,NA,TRUE
+11748,11748,acute myocardial infarction,NA,TRUE

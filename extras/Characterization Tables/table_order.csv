@@ -1,0 +1,23 @@
+﻿target_cohort_id,subgroup_order_last2digits,subgroup_name_1,subgroup_order_last2digits_withNO,subgroup_name_2
+1001,91,Male,91,Male
+1001011,92,Female,92,Female
+1017001,71,Age <=20,71,Age <=20
+1005001,72,Age 21-60,72,Age 21-60
+1007001,73,Age 61-80,73,Age 61-80
+1008001,31,HbA1c > 8%,31,HbA1c > 8%
+1003001,32,History of MASLD,51,HbA1c <= 8%
+1014001,33,Renal Impairment not on Dialysis,32,History of MASLD
+1012001,35,Renal Impairment on Dialysis,52,No History of MASLD
+1011001,36,Obese,33,Renal Impairment not on Dialysis
+1016001,37,History of DKA,35,Renal Impairment on Dialysis
+1002001,38,History of Diabetic Retinopathy,54,No Renal Impairment
+1018001,39,History of Hyperlipidemia,36,Obese
+1004001,40,History of Hypertension,56,Non-Obese
+1015001,51,,37,History of DKA
+1009001,52,,57,No History of DKA
+1010001,54,,38,History of Diabetic Retinopathy
+1006001,56,,58,No History of Diabetic Retinopathy
+1013001,57,,39,History of Hyperlipidemia
+,58,,59,No History of Hyperlipedmia
+,59,,40,History of Hypertension
+,60,,60,No History of Hypertension
