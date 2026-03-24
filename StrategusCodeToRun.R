@@ -20,22 +20,18 @@ Sys.setenv("VROOM_THREADS"=1) # Sets the number of threads to 1 to avoid deadloc
 cdmDatabaseSchema <- ""
 workDatabaseSchema <- ""
 outputLocation <- file.path(getwd(), "results")
-databaseName <- "" # Only used as a folder name for results from the study
+databaseName <- "CUMC_2024" # Only used as a folder name for results from the study
 minCellCount <- 5
-cohortTableName <- ""
+cohortTableName <- "arpah_obesity_cohort"
 
 # Create the connection details for your CDM
 # More details on how to do this are found here:
 # https://ohdsi.github.io/DatabaseConnector/reference/createConnectionDetails.html
-connectionDetails <- DatabaseConnector::createConnectionDetails(
-   dbms = '',
-   server = ''
- )
-
+connectionDetails <- createConnectionDetails()
 
 ##=========== END OF INPUTS ==========
 analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
-  fileName = "inst/cuimc/ARPAH_Analysis_Specification.json"  ###this is the study specs in JSON form
+  fileName = "inst/cuimc_rev/Obesity_Cohort_Analysis_Specification_V2.json"  ###this is the study specs in JSON form
 )
 
 executionSettings <- Strategus::createCdmExecutionSettings(
@@ -44,8 +40,10 @@ executionSettings <- Strategus::createCdmExecutionSettings(
   cohortTableNames = CohortGenerator::getCohortTableNames(cohortTable = cohortTableName),
   workFolder = file.path(outputLocation, databaseName, "strategusWork"),
   resultsFolder = file.path(outputLocation, databaseName, "strategusOutput"),
-  minCellCount = minCellCount
+  minCellCount = minCellCount #,
+  # modulesToExecute = c("characterizationModule")
 )
+
 
 if (!dir.exists(file.path(outputLocation, databaseName))) {
   dir.create(file.path(outputLocation, databaseName), recursive = T)
